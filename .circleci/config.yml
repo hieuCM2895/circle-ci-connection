@@ -41,7 +41,7 @@ jobs:
       - restore_cache:
           keys:
             - "npm-packages"
-      - run: npm audit
+      - run: npm audit fix
 
 workflows:
   # Name the workflow "welcome"
