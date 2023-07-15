@@ -22,7 +22,7 @@ jobs:
           key: "npm-packages"
           paths:
             - /src/node_modules
-      - run: npm run lint hello
+      - run: npm run lint
   test:
     docker:
       - image: circleci/node:13.8.0
